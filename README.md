@@ -68,4 +68,4 @@
 - 合约事件
 - 监听合约事件
 
-[web3j教程](http://xc.hubwiz.com/course/5b2b6e82c02e6b6a59171de2?affid=626github)
+欢迎爱学习的你访问学习：[web3j教程](http://xc.hubwiz.com/course/5b2b6e82c02e6b6a59171de2?affid=626github)
