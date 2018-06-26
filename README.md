@@ -1,5 +1,5 @@
 # ethereum-java-web3j
-一个很受欢迎的用java类库web3j开发区块链以太坊dapp和智能合约的教程：[web3j教程](http://xc.hubwiz.com/course/5b2b6e82c02e6b6a59171de2)
+一个很受欢迎的用java类库web3j开发区块链以太坊dapp和智能合约的教程：[web3j教程](http://xc.hubwiz.com/course/5b2b6e82c02e6b6a59171de2?affid=626github)
 
 本课程详细讲解如何使用web3j为Java应用或Android App增加以太坊区块链支持，课程内容即涉及以太坊中的核心概念，例如账户管理、状态与交易、智能合约开发与交互、过滤器和事件等，同时也详细说明如何使用web3j提供的开发接口与以太坊进行交互，是java工程师学习以太坊应用开发的不二选择。
 
@@ -67,3 +67,5 @@
 - 监听待定交易事件
 - 合约事件
 - 监听合约事件
+
+[web3j教程](http://xc.hubwiz.com/course/5b2b6e82c02e6b6a59171de2?affid=626github)
