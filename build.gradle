@@ -1,0 +1,29 @@
+group = 'com.hubiwz'
+version = '0.0.1'
+
+apply plugin: 'java'
+sourceCompatibility = 1.8
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.web3j:core:3.3.0',
+          'ch.qos.logback:logback-core:1.2.3',
+          'ch.qos.logback:logback-classic:1.2.3'
+}
+
+jar {
+  manifest.attributes "Main-Class": "com.hubwiz.demo.App"
+  from configurations.compile.collect { zipTree it }
+
+  exclude 'LICENSE.txt', 'NOTICE.txt', 'rootdoc.txt'
+  exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'  
+  exclude 'META-INF/NOTICE', 'META-INF/NOTICE.txt'  
+  exclude 'META-INF/LICENSE', 'META-INF/LICENSE.txt'  
+  exclude 'META-INF/DEPENDENCIES'   
+}
+
+apply plugin: 'application'
+mainClassName = "com.hubwiz.demo.App"
